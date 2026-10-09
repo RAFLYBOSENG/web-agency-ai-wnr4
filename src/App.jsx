@@ -58,7 +58,7 @@ const App = () => {
       <ContactUs />
       <Footer theme={theme} />
       {/* custom cursor ring */}
-      <div ref={OutlineRef} className='fixed top-0 left-0 w-10 h-10 rounded-full
+      <div ref={OutlineRef} className='max-sm:hidden fixed top-0 left-0 w-10 h-10 rounded-full
         border border-primary pointer-events-none z-9999' style={{transition: 'transform 0.1s ease-out'}}>
       </div>
 
